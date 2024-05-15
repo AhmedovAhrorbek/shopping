@@ -1,0 +1,138 @@
+.detail{
+    width: 388px;
+    height: 644px;
+    border-radius: 20px;
+    background-color: rgba(86, 90, 187, 1);
+    padding: 25px;
+    &-wrap{
+        width: 340px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        &__title{
+            font-family: Poppins;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 33px;
+            text-align: left;
+            color: #fff;
+        }   
+    }
+}
+
+.type{
+    margin-top: 0px;
+
+    &-text{
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.82px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    &-cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__seeall{
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 19.07px;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(217, 217, 217, 0.2);
+            padding: 18px;
+            border-radius: 5px;
+            transition: 0.5s all;
+        }
+        &__seeall:hover{
+            cursor: pointer;
+            background-color: #d1cccc;
+        }
+    }
+}
+
+.inputs{
+    margin-top: 20px;
+    &-name{
+        margin-bottom: 20px;
+    }
+}
+
+.sum{
+    margin-top: 20px;
+    &-total{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+}
+
+.last-amount{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4DE1C1;
+    padding: 20px;
+    border-radius: 12px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    &:hover{
+        cursor: pointer;
+    }
+    &__wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.inputs-name label,
+.inputs-cardnumber label,
+#expiryInput,
+#cvv {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+#myInput,
+#cardNumberInput,
+#expiryInput,
+#cvv {
+    background: rgba(98, 104, 198, 1);
+    height: 40px;
+    color: #C4C4C4;
+}
+
+#myInput::placeholder,
+#cardNumberInput::placeholder,
+#expiryInput::placeholder,
+#cvv::placeholder {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #C4C4C4;
+}
